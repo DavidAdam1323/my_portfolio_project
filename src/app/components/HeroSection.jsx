@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -15,7 +16,9 @@ const HeroSection = () => {
             dolorum. Ipsa, aperiam quos.
           </p>
         </div>
-        <div className="col-span-5"></div>
+        <div className="col-span-5">
+          <Image src="" alt="Hero Image" width={500} height={500} />
+        </div>
       </div>
     </section>
   );
