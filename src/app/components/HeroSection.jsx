@@ -19,11 +19,13 @@ const HeroSection = () => {
             dolorum. Ipsa, aperiam quos.
           </p>
           <div></div>
-          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-yellow-500 hover:bg-slate-400">
+          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-yellow-500">
             Contact Info
           </button>
-          <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-400 border border-[#9400FF] mt-3">
-            Download CV
+          <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-green-500 to-yellow-500 hover:bg-slate-400 mt-3">
+            <span className="block bg-[#27005D] hover:bg-slate-800 rounded-full px-5 py-2">
+              Download CV
+            </span>
           </button>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
