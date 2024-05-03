@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
@@ -10,7 +12,20 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-green-600 ">
               Hello, I'm{" "}
             </span>
-            David Adam
+            <br />
+            <TypeAnimation
+              sequence={[
+                "David Adam Silva",
+                5000, // wait 5s before replacing "David Adam Silva with next line"
+                "Full-Stack Software Developer",
+                5000,
+                "UX/UI Designer",
+                5000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-[#E4F1FF] text-base sm:text-lg mb-6 lg:text-xl">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
