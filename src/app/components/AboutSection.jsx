@@ -30,7 +30,7 @@ const TAB_DATA = [
   },
   {
     title: "Certifications",
-    id: "certificarions",
+    id: "certifications",
     content: (
       <ul>
         <li>Full Stack Web Developer - SoC</li>
@@ -96,6 +96,9 @@ const AboutSection = () => {
               {" "}
               Certifications{" "}
             </TabButton>
+          </div>
+          <div className="mt-8">
+            {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>
