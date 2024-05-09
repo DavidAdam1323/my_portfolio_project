@@ -8,6 +8,8 @@ const projectsData = [
     description: "Project 1 Description",
     image: "/../images/projects/project1.png",
     tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 2,
@@ -15,6 +17,8 @@ const projectsData = [
     description: "Project 2 Description",
     image: "/../images/projects/project2.png",
     tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 3,
@@ -22,6 +26,8 @@ const projectsData = [
     description: "Project 3 Description",
     image: "/../images/projects/project3.png",
     tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 4,
@@ -29,6 +35,8 @@ const projectsData = [
     description: "Project 4 Description",
     image: "/../images/projects/project4.png",
     tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 
@@ -43,6 +51,9 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.image}
+            tags={project}
+            gitUrl={project.gitUrl}
+            previewUrl={project.previewUrl}
           />
         ))}
       </div>
