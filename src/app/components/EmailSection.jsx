@@ -13,6 +13,7 @@ const EmailSection = () => {
           dedicated to responding promptly and engaging with you in a meaningful
           way.
         </p>
+        <div className="social flex flex-row gap-2"></div>
       </div>
     </section>
   );
