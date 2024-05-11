@@ -1,4 +1,6 @@
 import React from "react";
+import GitHubIcon from "../../../public/github-white-icon.png";
+import LinkedInIcon from "../../../public/linkedin-white-icon.png";
 
 const EmailSection = () => {
   return (
