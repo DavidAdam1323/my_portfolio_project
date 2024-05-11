@@ -72,9 +72,13 @@ const EmailSection = () => {
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Your message here..."
-              cols="30"
-              rows="10"
-            ></textarea>
+            />
+            <button
+              type="submit"
+              className="bg-purple-500 mt-6 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            >
+              Send Message
+            </button>
           </div>
         </form>
       </div>
