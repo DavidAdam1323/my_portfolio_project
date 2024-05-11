@@ -35,14 +35,14 @@ const EmailSection = () => {
               htmlFor="email"
               className="text-white block mb-2 text-sm font-medium"
             >
-              Your e-mail:
+              Your E-mail:
             </label>
             <input
               type="email"
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="example@email.com"
+              placeholder="E-mail"
             />
           </div>
           <div className="mb-6">
@@ -57,8 +57,24 @@ const EmailSection = () => {
               id="subject"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Briefly describe your message."
+              placeholder="Subject"
             />
+          </div>
+          <div className="mb-6">
+            <label
+              htmlFor="message"
+              className="text-white block text-sm mb-2 font-medium"
+            >
+              Message:
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              placeholder="Your message here..."
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
         </form>
       </div>
