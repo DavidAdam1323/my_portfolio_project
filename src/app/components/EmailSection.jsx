@@ -1,6 +1,8 @@
 import React from "react";
 import GitHubIcon from "../../../public/github-white-icon.png";
 import LinkedInIcon from "../../../public/linkedin-white-icon.png";
+import Link from "next/link";
+import Image from "next/image";
 
 const EmailSection = () => {
   return (
@@ -15,7 +17,14 @@ const EmailSection = () => {
           dedicated to responding promptly and engaging with you in a meaningful
           way.
         </p>
-        <div className="social flex flex-row gap-2"></div>
+        <div className="social flex flex-row gap-2">
+          <Link href="https://github.com/DavidAdam1323">
+            <Image src={GitHubIcon} alt="GitHub Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/davidadamsilva/">
+            <Image src={LinkedInIcon} alt="LinkedIn Icon" />
+          </Link>
+        </div>
       </div>
     </section>
   );
